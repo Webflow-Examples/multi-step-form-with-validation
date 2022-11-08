@@ -32,7 +32,7 @@ By default, all form steps are set to display none except for the first step. Th
 
 The current step is shown with the steps overview element.
 
-<img src="https://wadoodh.github.io/images/multi-step-form/input-pass-fail.png" alt="input group in each form step" width="500">
+<img src="https://wadoodh.github.io/images/multi-step-form/steps-overview.png" alt="input group in each form step" width="500">
 
 The `Webflow.push` function handles validation for the last step because it submits the form. See [the form validation repo](https://github.com/Webflow-Examples/form-validation) to learn about validating a form before submission.
 

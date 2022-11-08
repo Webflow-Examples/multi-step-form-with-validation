@@ -2,15 +2,15 @@
 
 Example Webflow site: https://multi-step-form-and-validation.webflow.io/
 
-<img src="https://media.cleanshot.cloud/media/46844/9uFr1DO3T76uZ8Ld9TZVTdOZrSboZZE7nrkdYBpk.jpeg?Expires=1664322602&Signature=E~fUKH6U8w0jlqCxxpxNTL9Yw9avK5i0rPYCISI0tu0YljBIP9ZRqlB75SUDUVLOMS5oD2wri7oV7J6PqojJlxzViZevgH9zj6QjscT9Q5-5WP~xm0n1od7Fs5XKypZKzGpfRf46asvE4iPNmvsxJMeFzTg62qq6VuW48oDuZC43lExrAqU5AHk4Wvdibb7P6OLKY6cSkBo8NTGpCspiXgCwHwHbi58A1Mb8Z1t5lYGR6cdKeC1qdokz7zqcO6hBpIl6oEqvmXJLJ-JJlzzUzQPKTN66DxmJ067tDL8zzhb8T6wDaKHQgUgMX3WO943efcx20pGeNuew4XFeCO~RbA__&Key-Pair-Id=K269JMAT9ZF4GZ" alt="form example in Webflow" width="400">
+<img src="https://wadoodh.github.io/images/multi-step-form/form.png" alt="form example in Webflow" width="400">
 
 # How it works
 
 Only one Webflow form element is used. Every form step is organized into a single div block called `step`.
 
-<img src="https://media.cleanshot.cloud/media/46844/mTNSyx5HcB39e8qNjWvdfJ5SaN5nbTWCE2sNaCwr.jpeg?Expires=1664318540&Signature=RI~lIiJYD0BhasQYzEPBXXlnWNpbcK4qbYBLsXWAZTNHTRcfsg2fsjVDyI~~X2Rz70EYakBf8Bm~mS8fxFfxCfziWgVMSIN5ss2bp-j7n~pLiTHFX3q15TZCjXQm7ruTC83oy4dkkbWG6RVqQ6J7c6QK6fOYWDLlnkb1lES5y-K5DRG~d2zGDTFGgjkc3Ies6BvCULomfDS8xiMh32C0v8TDvuLOlHedDf8D-RWzeRZu2zm3M4VksC96ou1ftxqamnND6VbgXYxQB8GDxS3HA1cc69HR7Po1W6PQCoUpgdYlcTdFNwNZWbz1~hbHQnIAWnwOuBFeoSIjOsGG25lcgQ__&Key-Pair-Id=K269JMAT9ZF4GZ" alt="form steps in the navigator panel" width="300"/>
+<img src="https://wadoodh.github.io/images/multi-step-form/form-step.png" alt="form steps in the navigator panel" width="300"/>
 
-The total number of form steps depends on how many `step` elements there are. This exmaple has 4 steps.
+The total number of form steps depends on how many `step` elements there are. This example has 4 steps.
 
 Each step contains a grouping of the
 
@@ -18,7 +18,7 @@ Each step contains a grouping of the
 - input(s)
 - error message
 
-<img src="https://media.cleanshot.cloud/media/46844/t6RR7FypwNZZcuEQnR2r9M4Puxm7seAUjPB7P7Vh.jpeg?Expires=1664318638&Signature=qe-qnlWK0IvV8~hTtYLypiL7SNdujWsbeSoReYlqeOETxdm2krOKERSl3Rd3xdbCu91SeiqGCi-0K4QFWZ4zvKYPs2tzUoAUvPsENBUdPZgvAbZ8aiwKm9xZfy9uBzf6EyjzdtTnoiP68xGrtbxyEatjknOZeopXxRtcNLiKzu2YEz9qQOICT1Vs3EncQzNnkmyNWkLmsTw2oQimbI8fsUj7NkHr-my1jSjEqhq6mWO4LP8LfOFIYZak92VFqdkrcK07kqQjUEKk7mHVWOTtxjbeJ~88UtRqYwReV0fb4E-U9NBuUSdtg1~Wl4I2sVLP1FgGn8AcJhcYsnfV2qkAFA__&Key-Pair-Id=K269JMAT9ZF4GZ" alt="input group in each form step" width="300">
+<img src="https://wadoodh.github.io/images/multi-step-form/input-group.png" alt="input group in each form step" width="300">
 
 This structure allows us to show an error/success for each input we're validating by passing the input to the `setError` or `setSuccess` functions.
 
@@ -26,13 +26,13 @@ When validation fails, the `input-error` class is added to the input to give it 
 
 When validation passes, the `input-success` class is added to the input giving it a green color and checkmark, indicating it has passed.
 
-<img src="https://media.cleanshot.cloud/media/46844/atN6ietlFwK2SLATJBZPBvjJeU30q7307K347XA0.jpeg?Expires=1664319923&Signature=YGjNCW3rvbFZ06koZ-ef8xtw30JXwlvp5dZFHp0FjXmZF3h9dNVgdA0JAyEfBLqfBY4TKg4HlYvTzbanuVBNqIL1X1exsmK8LolS46D3eMYwYyJa4w1nOFpvFCm5GbkGpsA4-VVibN4-TM9BBKTHZkxCdRVBPgxQO9zTYcZMAWTKPP~0eBOj1Wafpdse9~GJZ03kmuMMOKVWtAKEZE4dVNzOb1VKCvMmhL7PPr6opb0owriCUroyP4tejUksVefgoImTmveBOtv9RgOoLxyPKP3c~X2GkiAJHzzD5AXRF7~OdaCgC33YnjZrWAy-8MqMUWXdMJE2J-Ye5a4rmGpWKQ__&Key-Pair-Id=K269JMAT9ZF4GZ" alt="input group in each form step" width="400">
+<img src="https://wadoodh.github.io/images/multi-step-form/input-pass-fail.png" alt="input group in each form step" width="400">
 
 By default, all form steps are set to display none except for the first step. The `active` class is added to the relevant step to show it. The step can only be changed forwards if validation in the current step passes. Going back doesn't require validation. The `active` class is added to the first step in Webflow to show it when the page loads.
 
 The current step is shown with the steps overview element.
 
-<img src="https://media.cleanshot.cloud/media/46844/aMEVRukSE0nqrbN1MoVCD2fpGRFDAlOqislXBPK5.jpeg?Expires=1664318833&Signature=XdJ2QVishYN0-rLf7H1744l~tD6xiTgP84uBCP8AS6h03n1KHN82Ngs7WUwH7MgpPoiS2e7-dendS-lc0IYNnnMryrWSoDrYLQrIrWEfovvsh7~Q-gw5aVXKl~E2i6LCpsrk8rvBeRUGPCYhAqNZFYHRtOGuyDJke00Qw-uBCIaBS5IefOlmyWfAcf2kHFElUgCy2RTbDo-zmGP-j2LWCKW~9hPeZ57E3hKiYgsFQ0cTuMniidrYgKhZHxNb28OvR2KNHDZqZTlHYH1YU6eyyfUm4jfg3GseON1uXRVoJd-uZDvSnuUwTL7bmZ1~ISZU7g6pePfoZo3ua73~~t10~g__&Key-Pair-Id=K269JMAT9ZF4GZ" alt="input group in each form step" width="500">
+<img src="https://wadoodh.github.io/images/multi-step-form/input-pass-fail.png" alt="input group in each form step" width="500">
 
 The `Webflow.push` function handles validation for the last step because it submits the form. See [the form validation repo](https://github.com/Webflow-Examples/form-validation) to learn about validating a form before submission.
 
